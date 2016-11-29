@@ -149,7 +149,7 @@ void getTableExcel(string strPath)
 	std::cin >> lang_type;
 	if (!PathIsDirectory((strPath + lang_type).c_str()))
 	{
-		printf("Test"); 
+		printf("Test");  
 		CreateDirectory((strPath + lang_type).c_str(), NULL);
 	}
 	if (!createExcel(excel_app))
