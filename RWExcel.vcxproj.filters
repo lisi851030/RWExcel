@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RWExcel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UtfText.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseRWExcel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientLanguage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TableLanguage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerLanguage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DevelopLanguage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LabelLanguage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillLanguage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RWExcel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UtfText.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseRWExcel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientLanguage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TableLanguage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerLanguage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DevelopLanguage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LabelLanguage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillLanguage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
