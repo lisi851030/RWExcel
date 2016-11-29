@@ -139,7 +139,7 @@ void getTransFiles(string strPath)
 	getOneTransFile(getClientLanguage(), excel_app, strPath, lang_type);
 	//得到服务器翻译更新文件
 	getOneTransFile(getServerLanguage(), excel_app, strPath, lang_type);
-	excel_app->Quit();
+	excel_app->Quit(); 
 }
 void getTableExcel(string strPath)
 {
